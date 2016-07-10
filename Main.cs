@@ -21,10 +21,10 @@ public class Main : IMod
 
         CoasterCarInstantiator coasterCarInstantiator = binder.RegisterCoasterCarInstaniator<CoasterCarInstantiator> (TrackRideHelper.GetTrackedRide("Mini Coaster"), "SpinningCarInstantiator", "Spinning Car", 1, 9, 1);
         SpinningCar spinningCar =  binder.RegisterCar<SpinningCar> ( Main.AssetBundleManager.Car,"SpinningCar", .3f,.1f,true, new Color[] { 
-            new Color(71f / 255, 71f / 255, 71f / 255), 
-            new Color(176f / 255, 7f / 255, 7f / 255), 
-            new Color(26f / 255, 26f / 255, 26f / 255),
-            new Color(26f / 255, 26f / 255, 26f / 255)}
+            new Color(255f / 255, 118f / 255, 65f / 255), 
+            new Color(216f / 255, 199f / 255, 0f / 255), 
+            new Color(0f / 255, 0f / 255, 0f / 255),
+            new Color(195f / 255, 198f / 255, 31f / 255)}
         );
         coasterCarInstantiator.carGO = spinningCar.gameObject;
         coasterCarInstantiator.carGO.AddComponent<RestraintRotationController>().closedAngles = new Vector3(0,0,120);

@@ -1,18 +1,18 @@
-[16-07-10 15:19:56] Info: Compiling Spinning Car to bin/build-160710151956324.dll...
-[16-07-10 15:19:56] Info: Compiling from `SpinningCar.csproj`.
-[16-07-10 15:19:56] Info: Resolved assembly reference `Assembly-CSharp` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/Assembly-CSharp.dll`
-[16-07-10 15:19:56] Info: IGNORING assembly reference `Microsoft.CSharp`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System` to `System.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System.Core` to `System.Core.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System.Data` to `System.Data.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System.Data.DataSetExtensions` to `System.Data.DataSetExtensions.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System.Xml` to `System.Xml.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `System.Xml.Linq` to `System.Xml.Linq.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `UnityEngine` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/UnityEngine.dll`
-[16-07-10 15:19:56] Info: Resolved assembly reference `UnityEngine.UI` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/UnityEngine.UI.dll`
-[16-07-10 15:19:56] Info: IGNORING assembly reference `build-160710131329834`
-[16-07-10 15:19:56] Info: Source files: Main.cs, AssetBundleManager.cs, MathHelper.cs, SpinningCar.cs from `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Spinning_Car`.
-[16-07-10 15:19:56] Info: Compile using compiler version v3.5.
+[16-07-10 15:49:07] Info: Compiling Spinning Car to bin/build-160710154907445.dll...
+[16-07-10 15:49:07] Info: Compiling from `SpinningCar.csproj`.
+[16-07-10 15:49:07] Info: Resolved assembly reference `Assembly-CSharp` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/Assembly-CSharp.dll`
+[16-07-10 15:49:07] Info: IGNORING assembly reference `Microsoft.CSharp`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System` to `System.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System.Core` to `System.Core.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System.Data` to `System.Data.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System.Data.DataSetExtensions` to `System.Data.DataSetExtensions.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System.Xml` to `System.Xml.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `System.Xml.Linq` to `System.Xml.Linq.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `UnityEngine` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/UnityEngine.dll`
+[16-07-10 15:49:07] Info: Resolved assembly reference `UnityEngine.UI` to `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/Parkitect_Data/Managed/UnityEngine.UI.dll`
+[16-07-10 15:49:07] Info: IGNORING assembly reference `build-160710131329834`
+[16-07-10 15:49:07] Info: Source files: Main.cs, AssetBundleManager.cs, MathHelper.cs, SpinningCar.cs from `/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Spinning_Car`.
+[16-07-10 15:49:07] Info: Compile using compiler version v3.5.
  Compile using compiler version v3.5.
 [16-07-04 11:30:18] Info: Loaded build-160704112955758, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
 [16-07-04 11:30:18] Info: Sucessfully registered Main to the mod manager.
@@ -462,3 +462,7 @@
 [16-07-10 15:18:15] Info: Sucessfully registered Main to the mod manager.
 [16-07-10 15:20:07] Info: Loaded build-160710151956324, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
 [16-07-10 15:20:07] Info: Sucessfully registered Main to the mod manager.
+[16-07-10 15:40:22] Info: Loaded build-160710154010309, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-07-10 15:40:22] Info: Sucessfully registered Main to the mod manager.
+[16-07-10 15:49:29] Info: Loaded build-160710154907445, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-07-10 15:49:29] Info: Sucessfully registered Main to the mod manager.
