@@ -1,0 +1,15 @@
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/Assembly-CSharp.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/UnityEngine.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/UnityEngine.UI.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/pollend@TrackRiderUtil.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/Fabric.Core.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/DOTween.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/Assembly-CSharp-firstpass.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/ICSharpCode.SharpZipLib.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/protobuf-net.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/UnityEngine.CrashLog.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/ClassLibrary.dll.mdb
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/bin/Debug/ClassLibrary.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/obj/Debug/ClassLibrary.dll
+/home/michaelpollind/Documents/Parkitect_Alpha_2a_Linux/pnmods/Parkitect_Virginia_Reel/obj/Debug/ClassLibrary.dll.mdb
