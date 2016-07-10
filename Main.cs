@@ -19,10 +19,11 @@ public class Main : IMod
 
         binder = new TrackRiderBinder ("248fd3fdc996afcc56102bf4a8d456d7");
 
-        CoasterCarInstantiator coasterCarInstantiator = binder.RegisterCoasterCarInstaniator<CoasterCarInstantiator> (TrackRideHelper.GetTrackedRide("Mini Coaster"), "SpinningCarInstantiator", "Spinning Car", 1, 1, 1);
+        CoasterCarInstantiator coasterCarInstantiator = binder.RegisterCoasterCarInstaniator<CoasterCarInstantiator> (TrackRideHelper.GetTrackedRide("Mini Coaster"), "SpinningCarInstantiator", "Spinning Car", 1, 9, 1);
         SpinningCar spinningCar =  binder.RegisterCar<SpinningCar> ( Main.AssetBundleManager.Car,"SpinningCar", .3f,.1f,true, new Color[] { 
             new Color(71f / 255, 71f / 255, 71f / 255), 
             new Color(176f / 255, 7f / 255, 7f / 255), 
+            new Color(26f / 255, 26f / 255, 26f / 255),
             new Color(26f / 255, 26f / 255, 26f / 255)}
         );
         coasterCarInstantiator.carGO = spinningCar.gameObject;

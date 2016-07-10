@@ -11,7 +11,7 @@ public class SpinningCar : BaseCar
 
     private Transform rotator;
     private float rotational_speed = 0f;
-    private float maxRotation = 70f;
+    private float maxRotation = 40f;
 
 
     protected override void Awake ()
@@ -34,16 +34,17 @@ public class SpinningCar : BaseCar
 
             TrackSegment4 track = this.track.trackSegments [(int)backAxisPosition];
             if (!(track is Station)) {
-                float angle = MathHelper.AngleSigned (tangent_axis, next_tangent_axis, normal_axis);
-                rotational_speed += ((Mathf.Sign (angle) * Mathf.Sin (Mathf.Abs (angle)) * this.train.velocity * Time.deltaTime) / (.3f * Mathf.PI)) * Mathf.Rad2Deg * Time.deltaTime;
-                rotational_speed -= this.rotational_speed * .6f * Time.deltaTime;
+                    float angle = MathHelper.AngleSigned (tangent_axis, next_tangent_axis, normal_axis);
+                    rotational_speed += ((Mathf.Sign (angle) * Mathf.Sin (Mathf.Abs (angle)) * this.train.velocity * Time.deltaTime ) / (.3f * Mathf.PI)) * Mathf.Rad2Deg * Time.deltaTime;
+                    float additional_rotation = ((Mathf.Sign (angle) * Mathf.Sin (Mathf.Abs (angle)) * this.train.velocity) / (.3f * Mathf.PI)) * Mathf.Rad2Deg * Time.deltaTime;
 
-                if (this.rotational_speed > maxRotation * Time.deltaTime)
-                    this.rotational_speed = maxRotation * Time.deltaTime;
+                    rotational_speed -= this.rotational_speed * .1f * Time.deltaTime * Mathf.Abs (this.rotational_speed);
 
-               // float additional_rotation = ((Mathf.Sign (angle) * Mathf.Sin (Mathf.Abs (angle)) * this.train.velocity) / (.2f * Mathf.PI)) * Mathf.Rad2Deg * Time.deltaTime;
-
-                this.rotator.localRotation *= Quaternion.AngleAxis (/*additional_rotation+*/rotational_speed, Vector3.up);
+                    if (Mathf.Abs (this.rotational_speed) > maxRotation * Time.deltaTime)
+                        this.rotational_speed = Mathf.Sign (this.rotational_speed) * maxRotation * Time.deltaTime;
+                
+               
+                this.rotator.localRotation *= Quaternion.AngleAxis (additional_rotation+rotational_speed, Vector3.up);
             } else {
                 rotational_speed -= this.rotational_speed * .6f * Time.deltaTime;
 
