@@ -50,7 +50,7 @@ public class Main : IMod
 
     public string Description
     {
-        get { return "The Virginia reel  uses side friction like tracks. The tubs, have inward facing seating which spin freely on a chassis. The tubs are spun as they contacted the edges of the trough."; }
+        get { return "This is a spinning car for the mini coaster."; }
     }
 
 
