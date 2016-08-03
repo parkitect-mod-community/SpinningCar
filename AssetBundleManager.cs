@@ -10,7 +10,7 @@ public class AssetBundleManager
 	public AssetBundleManager (Main main)
 	{
 		this.Main = main;
-        Car = LoadAsset<GameObject> ("spinningCar");
+        Car = LoadAsset<GameObject> ("spinning_car");
     }
 
 

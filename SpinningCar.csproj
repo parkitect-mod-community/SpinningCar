@@ -49,7 +49,7 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\Parkitect_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="build-160710131329834">
+    <Reference Include="build-160802111059729">
       <HintPath>..\pollend%40TrackRiderUtil\bin\pollend%40TrackRiderUtil.dll</HintPath>
     </Reference>
   </ItemGroup>
@@ -64,7 +64,8 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssetBundleManager.cs" />
     <Compile Include="MathHelper.cs" />
-    <Compile Include="SpinningCar.cs" />
+    <Compile Include="SpinningCar_tem.cs" />
+    <Compile Include="SpinningCarProxy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

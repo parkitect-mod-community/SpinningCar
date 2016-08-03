@@ -3,7 +3,7 @@ using UnityEngine;
 using TrackedRiderUtility;
 
 
-public class SpinningCar : BaseCar
+public class SpinningCar_tem : BaseCar
 {
 
     private const float radius = .4f;
